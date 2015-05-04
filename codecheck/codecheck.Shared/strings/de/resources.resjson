@@ -1,0 +1,13 @@
+﻿{
+	"nutrition.alcohol": "Alkohol",
+	"nutrition.calories": "Brennwert",
+	"nutrition.carbonhydrate": "Kohlenhydrate",
+	"nutrition.energy": "Energie",
+	"nutrition.fat": "Fett",
+	"nutrition.fibers": "Ballaststoffe",
+	"nutrition.protein": "Eiweiss",
+	"nutrition.salt": "Salz",
+	"nutrition.saturatedFat": "Gesättigte Fette",
+	"nutrition.sodium": "Natrium",
+	"nutrition.sugar": "Zucker"	
+}

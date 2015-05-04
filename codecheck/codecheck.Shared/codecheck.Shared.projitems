@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>608a55b0-f1f5-48b1-8804-f859bcf2ff15</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
+    <Content Include="$(MSBuildThisFileDirectory)images\banner.png" />
+    <Content Include="$(MSBuildThisFileDirectory)js\api.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\articlePage.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\articlePage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\articlePage.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\categoryPage.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\categoryPage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\categoryPage.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\hubPage.js" />
+    <Content Include="$(MSBuildThisFileDirectory)images\gray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productPage.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productPage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productPage.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productsPage.css" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productsPage.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\productsPage.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\_categoryItem.html" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)strings\de\resources.resjson" />
+  </ItemGroup>
+</Project>

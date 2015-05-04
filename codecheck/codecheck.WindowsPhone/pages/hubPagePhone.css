@@ -1,0 +1,36 @@
+﻿
+.win-pivot .win-pivot-viewport {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.win-pivot-item .win-pivot-item-content {
+	padding: 0px;
+}
+
+.hubpage header[role=banner] {
+    position: relative;
+    z-index: 2;
+}
+
+.hubpage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    z-index: 1;
+}
+
+.hubpage .hub {
+	margin-top: 4px;
+	height: 100%;
+}
+
+	.hubpage .hub .win-hub-surface {
+		height: 100%;
+	}
+
+
+@media screen and (orientation: landscape) {
+	.win-pivot .win-pivot-surface {
+		height: 60vh;
+	}
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>articlePage</title>
+
+    <link href="articlePage.css" rel="stylesheet" />
+    <script src="articlePage.js"></script>
+</head>
+<body>
+    <div class="articlePage fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" data-win-bind="textContent:tit"></span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <article>
+                <header>
+                    <div data-win-bind="style.display:src codecheck.binding.displayIf">Quelle: <span data-win-bind="textContent:src"></span></div>
+                    <time data-win-bind="datetime:date;textContent:date" pubdate></time>
+                    <span data-win-bind="textContent:author"></span>
+                </header>
+                <p data-win-bind="textContent:text"></p>
+            </article>
+        </section>        
+    </div>
+</body>
+</html>

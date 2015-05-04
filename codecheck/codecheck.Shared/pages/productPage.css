@@ -1,0 +1,49 @@
+﻿.productPage section {
+	margin: auto 120px;
+}
+
+.phone .productPage .page-section {
+	margin: auto 24px;
+}
+
+.phone .productPage .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.productPage.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+	.productPage.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+	}
+
+.trafficLight .item {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.articles article .abstract:after {
+    content: '\2026';
+}
+
+.comments header h1,
+.articles header h1 {
+    font-size: 150%;
+}
+
+article time:after {
+    content: ', ';
+}
